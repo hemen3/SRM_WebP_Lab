@@ -1,0 +1,215 @@
+body{   
+    background-image: url("/FBS/images/fbg.jpg");  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+} 
+
+.logo{
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    float: left;
+}
+.header{
+	height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+	background-color: #244093;
+    border-top: solid rgb(133, 0, 0) 5px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    border-bottom: solid rgb(133, 0, 0) 5px;
+    background-color:#244093;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 10px;
+}
+.heading{
+    font-size: xx-large;
+    text-align: center;
+    color:#c3e6f9;
+    padding: 15px;
+    margin: auto;
+    margin-left:10px;
+}
+.header-buttons{
+    margin: auto;
+    height: 75px;
+    display: flex;
+    margin-left: 650px;
+    justify-content: space-around;
+}
+.header_btn_text{
+    text-align: center;
+    margin-top: 30%;
+    font-size: 14pt;
+}
+
+.header-button{
+
+    color: white;
+    height: 100%;
+    width: 100px;
+    font-size: medium;
+    margin-right: 2%;
+}
+.header-button:hover{
+    background-color:#bde2f5;
+	color: black;
+}
+
+a:link {
+    text-decoration:none;
+}
+#frm{  
+    border: solid gray 2px;  
+    width:19.5%;  
+    border-radius: 60px 10px;
+	font-family: "VT323";
+    font-size: 20px;	
+    margin: 120px auto;  
+    background: #ADD8E6;  
+    padding: 50px;  
+}  
+#frm1{  
+    border: solid gray 3px;  
+    width:25%;  
+    border-radius: 80px 20px; 
+    font-family: "VT323";
+    font-size: 20px;	
+    margin: 120px auto;  
+    background: #ADD8E6;  
+    padding: 50px;  
+} 
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 10px;
+	font-size: 15px;
+	border-radius: 6px;
+	margin-top: 10%;
+    margin-left: 15%;
+	border: 2px solid gray;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	
+} 
+#btn:hover {
+	border:3px solid gray;
+  background-color:#E0E0E0;
+  color: black;
+}
+#btn1{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 10px;
+	font-size: 15px;
+	border-radius: 6px;
+    margin-left: 20%;
+	border: 2px solid gray;
+	transition-duration: 0.3s;
+	cursor: pointer;
+} 
+#btn1:hover {
+	border:3px solid gray;
+  background-color:#E0E0E0;
+  color: black;
+}
+#btn2{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 5px;
+	font-size: 12px;
+	border-radius: 10px;
+    margin-left: 15px;	
+	border: 2px solid gray;
+	transition-duration: 0.3s;
+	cursor: pointer;	
+}
+#btn2:hover {
+	border:3px solid gray;
+  background-color:#E0E0E0;
+  color: black;
+}
+#sbtn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 10px;
+	border-radius: 6px;
+	margin-top: 5%;
+    margin-left: 15%;	
+	border: 2px solid gray;
+	transition-duration: 0.3s;
+	cursor: pointer;
+} 
+#sbtn:hover {
+	border:3px solid gray;
+  background-color:#E0E0E0;
+  color: black;
+}
+#sbtn1{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 10px;
+	border-radius: 6px;
+	margin-top: 5%;
+    margin-left: 20%;  
+	border: 2px solid gray;
+	transition-duration: 0.3s;
+	cursor: pointer;
+} 
+#sbtn1:hover {
+	border:3px solid gray;
+  background-color:#E0E0E0;
+  color: black;
+} 
+
+#lab1{
+	 text-align:right;
+}
+#lab2{
+	float:auto;
+	width: 130px;
+}
+
+#username,#fname,#lname,#dob,#gen,#add,#nat,#mob,#mail,#pwd,#cpass{
+	float:left;
+	width: 130px;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.blinking{
+	margin-top: 20px;
+	color: red;
+	font-size:50px;
+	 background-color: black;
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: red; }
+    60%{    color:yellow; }
+    99%{    color:yellow;  }
+    100%{   color: red;    }
+}
