@@ -1,0 +1,95 @@
+<html>  
+<head>  
+    <title>Easy Flight</title>  
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=VT323'>
+    <link rel="icon" href="/FBS/images/favicon.ico" type="image/x-icon">  
+    <link rel = "stylesheet" type = "text/css" href = "/FBS/style.css">   
+</head>  
+<body> 
+<div class ="header">
+		<a href="/FBS/pages/home.html">
+        <img src ="/FBS/images/favicon.ico"  alt ="Easy Flight" class = "logo">
+		</a>
+		<a href="/FBS/pages/home.html">
+        <div class="heading">
+            Easy Flight
+        </div>
+		</a>
+        <div class="header-buttons">
+            <a href="/FBS/pages/home.html" class="header-button">
+                <div class="header_btn_text">
+                    Home
+                </div>
+            </a>
+            <a href="/FBS/pages/infos.html" class="header-button">
+                <div class="header_btn_text">
+                    Offers
+                </div>
+            </a>
+            <a href="/FBS/pages/feedback.html" class="header-button">
+                <div class="header_btn_text">
+                    Contact Us
+                </div>
+            </a>
+            <a href="/FBS/pages/login.html" class="header-button">
+                <div class="header_btn_text">
+                    Login
+                </div>
+            </a>
+        </div>
+    </div> 
+    <div id = "frm">  
+        <h1><font face = "Courier New" size = "6">LOGIN</font></h1>  
+        <form name="f1" action="/FBS/connections/check.php" onsubmit = "return validation()" method = "post">  
+            <p>  
+                <label id="lab2"> Username: </label>  
+                <input type = "text" placeholder="Enter your username" id ="user" name="user" />  
+            </p>  
+            <p>  
+                <label id="lab2"> Password: </label>  
+                <input type = "password" placeholder="Enter your password" id ="pass" name="pass"/>  
+            </p> 		
+            <p>     
+                <input type = "submit" id = "btn" name="login_user" value = "Login"/><input type="reset" id="btn1" value="Reset"/>
+			</p>
+			<div id="lab1">
+				<br><label>New user? </label> 
+				<a href="/FBS/pages/register.html"><input type="button" id="btn2" value="REGISTER"/></a>  
+            </div>  
+
+        </form>  
+    </div>
+    <footer >
+        <p style="text-align: center;">
+			Easy Flight
+        </p>
+        <p style="text-align: center;">
+        <a href="mailto:hd7781@srmist.edu.in" style="color:rgb(185, 183, 183);text-decoration: underline;">
+			Mail us
+        </a>
+        </p>
+    </footer>    
+   <script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>
+</body>     
+</html>  
