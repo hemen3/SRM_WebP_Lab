@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="./infos.xsl"?> 
+<infos> 
+	<info> 
+		<airline>Air-India</airline> 
+		<from>Chennai (MAA)</from> 
+		<to>New Delhi (DEL)</to> 
+		<price>₹8,200</price>
+		<offer_price>₹7,000</offer_price>
+		<class>Economy</class> 
+	</info> 
+	 <info> 
+		<airline>IndiGo</airline> 
+		<from>Pune (PNQ)</from> 
+		<to>Kolkata (CCU)</to> 
+		<price>₹7,120</price>
+		<offer_price>₹6,820</offer_price>
+		<class>Business</class> 
+	</info>
+	<info> 
+		<airline>SpiceJet</airline> 
+		<from>Jaipur (JAI)</from> 
+		<to>Chandigarh (IXC)</to> 
+		<price>₹10512</price>
+		<offer_price>₹9,362</offer_price>
+		<class>First</class> 
+	</info>
+	<info> 
+		<airline>Vistara</airline> 
+		<from>Bengaluru (BLR)</from> 
+		<to>London Heathrow (LHR)</to> 
+		<price>₹29648</price>
+		<offer_price>₹27,250</offer_price>
+		<class>Economy</class> 
+	</info>
+	<info> 
+		<airline>Go Air</airline> 
+		<from> Lucknow (LKO)</from> 
+		<to>Bangkok (BKK)</to> 
+		<price>₹24300</price>
+		<offer_price>₹22,269</offer_price>
+		<class>Business</class> 
+	</info>
+</infos>
