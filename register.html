@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+    <title>Easy Flight</title>  
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=VT323'>
+    <link rel="icon" href="/FBS/images/favicon.ico" type="image/x-icon">  
+    <link rel = "stylesheet" type = "text/css" href = "/FBS/style.css">  
+	<script src="/FBS/connections/form-validation.js"></script>	
+</head>  
+<body onload="document.registration.username.focus();">  
+<div class ="header">
+		<a href="/FBS/pages/home.html">
+        <img src ="/FBS/images/favicon.ico"  alt ="Easy Flight" class = "logo">
+		</a>
+		<a href="/FBS/pages/home.html">
+        <div class="heading">
+            Easy Flight
+        </div>
+		</a>
+        <div class="header-buttons">
+            <a href="/FBS/pages/home.html" class="header-button">
+                <div class="header_btn_text">
+                    Home
+                </div>
+            </a>
+            <a href="/FBS/pages/infos.xml" class="header-button">
+                <div class="header_btn_text">
+                    Offers
+                </div>
+            </a>
+            <a href="/FBS/pages/feedback.html" class="header-button">
+                <div class="header_btn_text">
+                    Contact Us
+                </div>
+            </a>
+            <a href="/FBS/pages/login.html" class="header-button">
+                <div class="header_btn_text">
+                    Login
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id = "frm1">  
+        <h1><font face="Courier New" size="6">REGISTRATION</font></h1><!--onsubmit="return formValidation()" -->
+		<form name="registration" action="/FBS/connections/register.php"  method = "post">	
+			<p>
+				<label id="username">Username:</label>
+				<input type="text" placeholder="Create your Username" name="username" />
+			</p>
+			<p>  
+                <label id="fname"> First Name: </label>  
+                <input type="text" placeholder="Enter your FirstName" name="fname" />  
+            </p>
+			<p>  
+                <label id="lname"> Last Name: </label>  
+                <input type="text" placeholder="Enter your LastName" name="lname" />  
+            </p>
+			<p>  
+                <label id="dob"> Date of Birthday: </label>  
+                <input type="text" name="dob">  
+            </p>
+			<p>
+			<label id="gen">Sex:</label>
+			<input type="radio" name="sex" value="Male" />Male
+			<input type="radio" name="sex" value="Female" />Female
+			</p>
+			<p>
+			<label id="add">Address:</label>
+			<input type="text" name="add" size="30" />
+			</p>
+			<p>
+			<label id="nat">Nationality:</label>
+			<select name="nat">
+			<option selected="" value="Default">(Please select a country)</option>
+			<option value="Australia">Australia</option>
+			<option value="Canada">Canada</option>
+			<option value="India">India</option>
+			<option value="Russia">Russia</option>
+			<option value="USA">USA</option>
+			</select>
+			</p>
+			<p>     
+                <label id="mob">Mobile number : </label>
+				<input type="text" placeholder="Enter your number" name="mob">
+            </p>
+			<p>  
+                <label id="mail"> E-mail: </label>  
+                <input type = "text" placeholder="Enter your E-mail"  name="mail" />  
+            </p>
+            <p>  
+                <label id="pwd"> Password: </label>  
+                <input type = "password" placeholder="Enter your password" name  = "pwd"/>  
+            </p> 
+			<p>  
+                <label id="cpass"> Confirm Password: </label>  
+                <input type = "password" placeholder="Enter your password" name  = "cpass"/>  
+            </p>			
+            <p>     
+				<input type="submit" id="sbtn"name="reg_user" value="Submit"/>
+				<input type="reset" id="sbtn1" value="Reset"/>  
+            </p>
+			<div id="lab1">
+				<br><label>Already a member? </label> 
+				<a href="/FBS/pages/login.html"><input type="button" id="btn2" value="LOGIN"/></a>  
+            </div>
+		</form>  
+    </div>
+    <footer >
+        <p style="text-align: center;">
+			Easy Flight
+        </p>
+        <p style="text-align: center;">
+        <a href="mailto:hd7781@srmist.edu.in" style="color:rgb(185, 183, 183);text-decoration: underline;">
+			Mail us
+        </a>
+        </p>
+    </footer>
+</body>     
+</html> 
